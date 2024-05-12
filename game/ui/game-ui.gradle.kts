@@ -9,6 +9,7 @@ android {
 }
 
 dependencies {
+    implementation(project(BuildModules.COMPONENT))
     implementation(project(BuildModules.Core.MODEL))
     implementation(project(BuildModules.Game.ENGINE))
 }

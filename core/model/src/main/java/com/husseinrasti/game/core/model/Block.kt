@@ -19,7 +19,7 @@ data class Pipe(
     val topY: Dp,
     val bottomY: Dp,
     val x: Dp,
-    val width: Dp = 20.dp
+    val width: Dp = 40.dp
 ) {
     val rect = Rect(
         topLeft = Offset(x.value, topY.value),

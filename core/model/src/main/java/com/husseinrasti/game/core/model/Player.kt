@@ -7,7 +7,7 @@ import androidx.compose.ui.unit.Dp
 data class Player(
     val y: Dp,
     val speed: Float,
-    val size: Size = Size(70f, 36.65f)
+    val size: Size = Size(140f, 72f)
 ) {
     val rect = Rect(Offset(0f, y.value), size.toComposeSize())
 
